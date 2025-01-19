@@ -664,8 +664,7 @@ p {
 }
 
 .lema__card img{
-
-    width: 10vw;
+    min-width: 10vw;
     max-width: 12vw;
 }
 
@@ -905,7 +904,8 @@ p {
     align-items: center;
     align-self: center;
 
-    width: 50%;
+    width: 100%;
+    max-width: 50vw;
 
     padding: 2em;
 
@@ -1093,6 +1093,7 @@ p {
 }
 
 .favoritas__content_1 img {
+
     max-width: 350px;
     min-width: 280;
     height: 250px;
