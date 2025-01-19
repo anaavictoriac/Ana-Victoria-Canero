@@ -1176,20 +1176,9 @@ p {
 
 }
 
-.newsletter__content_text form{
 
-    text-align: center;
 
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1em;
-
-}
-
-.newsletter__content_text form input{
+.newsletter__content_text input{
     background-color: var(--secondary-color);
     border: 2px solid var(--secondary-color);
     border-radius: 6px;
@@ -1204,7 +1193,7 @@ p {
 
     display: none;
     position: fixed;
-    
+
     top: 0;
     left: 0;
     width: 100%;
