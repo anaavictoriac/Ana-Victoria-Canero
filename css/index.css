@@ -1015,7 +1015,6 @@ p {
 }
 
 .colaboraciones__content {
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1025,6 +1024,7 @@ p {
 
     animation: moverIzquierda 30s forwards; 
     transition: transform 1.5s linear;
+
 }
 
 .colaboraciones__content img {
