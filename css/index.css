@@ -792,6 +792,7 @@ p {
 
     .entradas{
         display: grid;
+    
         align-items: center;
     }
 
@@ -944,7 +945,7 @@ p {
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
 
     .somos__content {
 
