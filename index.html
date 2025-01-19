@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajeras X Europa</title>
+
+    <link rel="stylesheet" href="css/index.css">
+    <script defer src="js/index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ruda:wght@400..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!--HEADER-->
+    <header class="header">
+        <div class="header__logo">
+            <a href="index.html"><img src="assets/logo_RED_vxe.png" alt="logo" ></a>
+        </div>
+        <nav>
+            <div class="menu__hamburguesa">
+                <svg class="hamburguesa__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#EE472C" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M4 20h16"></path> <path d="M4 12h16"></path> <path d="M4 4h16"></path> </svg>
+                <div class="hamburguesa__list" id="hamburguesaMenu">
+
+                    <svg class="hamburguesa__close" id="closeMenu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M18 6l-12 12"></path> <path d="M6 6l12 12"></path> </svg> 
+
+                    <ul class="hamburguesa__links">
+
+                        <li><a href="index.html">Inicio</a></li>
+
+                        <li class="hamburguesa__bloque ">
+                            <div class="hamburguesa__content">
+                                <a href="espana.html">España</a>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="hamburguesa_title" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M6 9l6 6l6 -6"></path> </svg>
+                            </div>
+
+                            <ul class="hamburguesa__links_vertical">
+                                <li><a href="Madrid/madrid.html">Madrid</a></li>
+                                <li><a href="Barcelona/barcelona.html">Barcelona</a></li>
+                                <li><a href="Valencia/valencia.html">Valencia</a></li>
+
+                            </ul>
+                        </li>
+
+                        <li class="hamburguesa__bloque ">
+
+                            <div class="hamburguesa__content">
+                                <a href="europa.html">Europa</a>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="hamburguesa_title" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M6 9l6 6l6 -6"></path> </svg>
+                            </div>
+
+                            <ul class="hamburguesa__links_vertical">
+                                <li><a href="Budapest/budapest.html">Budapest</a></li>
+                                <li><a href="Paris/paris.html">París</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="somos.html">Quiénes somos</a></li>
+
+                    </ul>
+                </div> 
+            </div>
+            <ul class="header__links">
+                <li><a href="index.html">Inicio</a></li>
+
+                <li class="header__links_desplegable">
+                    <a href="espana.html">España<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M6 9l6 6l6 -6"></path> </svg></a>
+                    <ul class="header__links_vertical">
+                        <li><a href="Madrid/madrid.html">Madrid</a></li>
+                        <li><a href="Barcelona/barcelona.html">Barcelona</a></li>
+                        <li><a href="Valencia/valencia.html">Valencia</a></li>
+                    </ul>
+                </li>
+                <li class="header__links_desplegable">
+                    <a href="europa.html">Europa<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M6 9l6 6l6 -6"></path></svg></a>
+                    <ul class="header__links_vertical">
+                        <li><a href="Budapest/budapest.html">Budapest</a></li>
+                        <li><a href="Paris/paris.html">París</a></li>
+                    </ul>
+                </li>
+                <li><a href="somos.html">Quiénes somos</a></li>
+            </ul>
+        </nav>
+        <div class="header__rrss">
+            <a href="https://www.instagram.com/viajerasxeuropa/"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ef472c" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                <path d="M16.5 7.5l0 .01" /></svg></a>
+            <a href="https://www.tiktok.com/@viajerasxeuropa?is_from_webapp=1&sender_device=pc"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-tiktok" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ef472c" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M21 7.917v4.034a9.948 9.948 0 0 1 -5 -1.951v4.5a6.5 6.5 0 1 1 -8 -6.326v4.326a2.5 2.5 0 1 0 4 2v-11.5h4.083a6.005 6.005 0 0 0 4.917 4.917z" /></svg></a>
+        </div>
+    </header>
+
+    <!-- Carrusel -->
+
+    <section class="carrusel">
+        <div class="carrusel__medidas">
+            <div class="carrusel__contenido">
+                <div class="contenido1">
+                    <div class="contenido_text">
+                        <h1>¡Descubre París!</h1>
+                        <p>Las mejores vistas desde la Torre Eiffel</p>
+                        <a class="boton1" href="Paris/paris.html">Descubre más</a>
+                    </div>
+                </div>
+                <div class="contenido2">
+                    <div class="contenido_text">
+                        <h1>¡Descubre Budapest!</h1>
+                        <p>Las mejores vistas del puente de las cadenas</p>
+                        <a class="boton1" href="Budapest/budapest.html">Descubre más</a>
+                    </div>
+                </div>
+                <div class="contenido3">
+                    <div class="contenido_text">
+                        <h1>¡Descubre Madrid!</h1>
+                        <p>Las mejores vistas de la fuente de Cibeles</p>
+                        <a class="boton1" href="Madrid/madrid.html">Descubre más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carrusel__botones">
+            <button class="boton_carrusel boton_carrusel1">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFF6ED" stroke="#EE472C" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" class="boton"></path></svg>
+            </button>
+            <button class="boton_carrusel boton_carrusel2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFF6ED" stroke="#EE472C" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" class="boton"></path></svg>
+            </button>
+            <button class="boton_carrusel boton_carrusel3">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFF6ED" stroke="#EE472C" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" class="boton"></path></svg> 
+            </button>
+        </div> 
+    </section>
+
+    <!-- Lema -->
+
+    <section class="lema">
+        <div class="lema__card">
+            <picture><img src="assets/home_ahorro_icon.png" alt="icono ahorro"></picture>
+            <h4>Ahorra sin perderte nada</h4>
+            <p>Disfruta al máximo sin gastar de más.</p>
+        </div>
+        <div class="lema__card">
+            <picture><img src="assets/home_alojamiento_icon.png" alt="icono alojamiento"></picture>
+            <h4>Comodidad sin complicaciones</h4>
+            <p>Viaja cómodo sin gastarte un dineral.</p>
+        </div>
+        <div class="lema__card">
+            <picture><img src="assets/home_mapamundi_icon.png" alt="icono mapa"></picture>
+            <h4>Exprime cada aventura</h4>
+            <p>Saca el máximo de cada destino.</p>
+        </div>
+        <div class="lema__card">
+            <picture><img src="assets/home_bulb_icon.png" alt="icono bombilla"></picture>
+            <h4>Planificar es la clave del éxito</h4>
+            <p>Nosotras te damos los trucos para hacerlo como un experto.</p>
+        </div>
+    </section>
+
+
+    <!--Ultimas entradas-->
+    <section class="entradas">
+        <h1>Últimas entradas</h1>
+        <div class="entradas__1">
+            <div class="entradas__card">
+                <a href="Paris/entradaParis.html" title="Ir a Entrada Paris">
+                    <picture><img src="assets/paris.jpg" alt="imagen parís"></picture>
+                    <h5>10 Lugares Imperdibles en París: ¡Tu Guía para Conocer la Ciudad!</h5>
+                </a>
+            </div>
+            <div class="entradas__card">
+                <a href="Valencia/entradaValencia.html" title="Ir a Entrada Valencia">
+                    <picture><img src="assets/valencia.jpg" alt="imagen valencia"></picture>
+                    <h5>¿Qué ver en Valencia en 1 día?</h5>
+                </a>
+            </div>
+            <div class="entradas__card">
+                <a href="Budapest/entradaBudapest.html" title="Ir a Entrada Budapest">
+                    <picture><img src="assets/budapest.jpg" alt="imagen budapest"></picture>
+                    <h5>Budapest: Un recorrido por la historia y belleza del Castillo de Buda</h5>
+                </a>
+            </div>
+
+            <div class="entradas__card">
+                <a href="Madrid/entradaMadrid.html" title="Ir a Entrada Madrid">
+                    <picture><img src="assets/madrid.jpg" alt="imagen madrid"></picture>
+                    <h5>Los Imprescindibles de Madrid: Lugares que No Puedes Dejar de Visitar</h5>
+                </a>
+            </div>
+
+            <div class="entradas__card">
+                <a href="#">
+                    <picture><img src="assets/berlin.jpg" alt="imagen berlín"></picture>
+                    <h5>Descubre Berlín: Historia, Arte y Modernidad en la Capital Alemana</h5>
+                </a>
+            </div>
+
+            <div class="entradas__card">
+                <a href="#">
+                    <picture><img src="assets/bilbao.jpg" alt="imagen bilbao"></picture>
+                    <h5>Bilbao: Qué Ver en la Ciudad del Guggenheim y Más</h5>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!--Quienes somos-->
+
+    <section class="somos">
+        <h1>Quiénes somos</h1>
+        <div class="somos__content">
+            <div class="somos__img">
+                <button><img src="assets/emoji_ana_saludando.png" alt="emoji ana" class="somos__active somos__img1"></button>
+                <button><img src="assets/emoji_amanda_saludando.png" alt="emoji amanda" class="somos__noactive somos__img2"></button>
+            </div>
+            <div class="somos__text">
+                <div class="somos__text_1 active">
+                    <p>Ana tiene 24 años y es graduada en Comunicación Audiovisual. Siempre le ha apasionado viajar y descubrir nuevos rincones del mundo. A través de este blog, comparte sus experiencias personales, consejos y anécdotas de sus aventuras, con la esperanza de inspirar a otros a salir y explorar todo lo que el mundo tiene para ofrecer.</p>
+                </div>
+                <div class="somos__text_2 ">
+                    <p>Amanda, de 21 años, siempre ha viajado por Europa junto a Ana, su amiga y compañera de aventuras. Viajar es su gran pasión, y comparte con Ana el amor por descubrir nuevos lugares y culturas. Actualmente estudia Comunicación, lo que le permite combinar su creatividad con su amor por los viajes. </p>
+                </div>  
+            </div>
+        </div>
+    </section>
+    
+    <!--Colaboraciones-->
+
+    <section class="colaboraciones">
+        <div class="colaboraciones__content">
+            <picture><img src="assets/logo_marseille.png" alt="logo turismo marsella"></picture>
+            <picture><img src="assets/logo_pula.png" alt="logo turismo pula"></picture>
+            <picture><img src="assets/logo_only_lyon.png" alt="logo turismo lyon"></picture>
+            <picture><img src="assets/logo_simply_munich.png" alt="logo turismo Munich"></picture>
+            <picture><img src="assets/logo_marseille.png" alt="logo turismo marsella"></picture>
+            <picture><img src="assets/logo_pula.png" alt="logo turismo pula"></picture>
+            <picture><img src="assets/logo_only_lyon.png" alt="logo turismo lyon"></picture>
+            <picture><img src="assets/logo_simply_munich.png" alt="logo turismo Munich"></picture>
+            <picture><img src="assets/logo_marseille.png" alt="logo turismo marsella"></picture>
+            <picture><img src="assets/logo_pula.png" alt="logo turismo pula"></picture>
+            <picture><img src="assets/logo_only_lyon.png" alt="logo turismo lyon"></picture>
+            <picture><img src="assets/logo_simply_munich.png" alt="logo turismo Munich"></picture>
+
+        </div>
+    </section>
+
+    <!--CIUDADES FAVORITAS-->
+    
+    <section class="favoritas">
+        <h1>Nuestras 3 ciudades favoritas</h1>
+        <div class="favoritas__content">
+            <div class="favoritas__content_1">
+                <picture><img src="assets/budapest.jpg" alt="Foto Parlamento de Budapest"></picture>
+
+                <div class="favoritas__content_text">
+                    <h2>1. Budapest</h2>
+                    <p>Budapest, la capital de Hungría, es una ciudad fascinante dividida por el río Danubio en Buda y Pest. Con una rica historia, ofrece monumentos emblemáticos como el Parlamento, el Puente de las Cadenas y el Castillo de Buda. Además, es famosa por sus termas, arquitectura impresionante y vibrante vida nocturna.</p>
+                </div>
+
+            </div>
+            <div class="favoritas__content_1">
+                <picture><img src="assets/paris.jpg" alt="Foto aérea de París"></picture>
+
+                <div class="favoritas__content_text">
+                    <h2>2. París</h2>
+                    <p>La capital de Francia, París, es conocida por su icónica Torre Eiffel, el Louvre y su ambiente romántico. Con una mezcla de historia, arte y cultura, la ciudad ofrece monumentos impresionantes, calles llenas de encanto y una gastronomía única. París es un destino imprescindible para los amantes del arte, la moda y la historia.</p>
+                </div>
+            </div>
+
+            <div class="favoritas__content_1">
+                <picture><img src="assets/lyon.jpg" alt="Foto de Lyon"></picture>
+                <div class="favoritas__content_text">
+                    <h2>3. Lyon</h2>
+                    <p>Lyon, ubicada en el este de Francia, es famosa por su arquitectura renacentista y su exquisita gastronomía. La ciudad es un paraíso para los amantes de la comida, con una rica tradición culinaria. Además, sus encantadores barrios, como el Vieux Lyon, y su vibrante escena cultural hacen de Lyon un lugar ideal para explorar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Seccion newsletter-->
+    
+    <section class="newsletter">
+        <div class="newsletter__content">
+            <div class="newsletter__content_text">
+                <h1>Suscríbete a nuestra newsletter</h1>
+                <form action="/suscribirNewsletter" method="get">
+                    <input type="email" name="email" id="" placeholder="usuario@gmail.com" required>
+                    <button type="submit" class="boton1" id="popupButtom">Suscribirse</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="newsletter__popup">
+        <div class="popup_content">
+            <svg class="popup_close" id="popupClose" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M18 6l-12 12"></path> <path d="M6 6l12 12"></path></svg> 
+            <h2>¡Enhorabuena! Te acabas de suscribir a nuestra Newsletter</h2>
+            <h3>En los próximos minutos recibirás un correo con toda la información</h3>
+        </div>
+    </div>
+
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="footer__logo">
+            <img src="assets/logo_WH_vxe.png" alt="">
+        </div>
+        <div class="footer__links">
+
+            <div class="footer__links_pestañas">
+                <a href="index.html">Inicio</a>
+                <a href="espana.html">España</a>
+                <a href="europa.html">Europa</a>
+                <a href="somos.html">Quienes somos</a>
+            </div>
+            
+            <div class="footer__links_redes">
+
+                <a href="https://www.instagram.com/viajerasxeuropa/" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFF6ED" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                    <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                    <path d="M16.5 7.5l0 .01" /></svg></a>
+                <a href="https://www.tiktok.com/@viajerasxeuropa?is_from_webapp=1&sender_device=pc" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-tiktok" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFF6ED" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M21 7.917v4.034a9.948 9.948 0 0 1 -5 -1.951v4.5a6.5 6.5 0 1 1 -8 -6.326v4.326a2.5 2.5 0 1 0 4 2v-11.5h4.083a6.005 6.005 0 0 0 4.917 4.917z" /></svg></a>
+            </div>
+
+        </div>
+        <div class="footer__texto">
+            <span>© 2024 Viajerasxeuropa. Todos los derechos reservados.</span>
+        </div>
+    </footer>
+
+</body>
+</html>
