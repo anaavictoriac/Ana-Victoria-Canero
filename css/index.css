@@ -1050,6 +1050,10 @@ p {
         margin-top: 6em;
 
     }
+
+    .colaboraciones__content {
+        gap: 3em;
+    }
 }
 
 /*FAVORITAS*/
