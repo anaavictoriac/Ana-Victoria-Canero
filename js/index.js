@@ -52,6 +52,26 @@ closeBoton.addEventListener('click' , () => {
     menu.classList.remove('active')
 })
 
+// Pop up newsletter 
+
+document.addEventListener("DOMContentLoaded", function() {
+
+    const popup = document.querySelector('.newsletter__popup');
+    const subscribeButton = document.getElementById("popupButtom");
+    const closePopup = document.getElementById("popupClose");
+
+    subscribeButton.addEventListener("click", function() {
+        popup.style.display = "flex";
+    });
+
+    window.addEventListener("click", function(event) {
+        if (event.target === popup) {
+            popup.style.display = "none";
+        }
+    });
+});
+
+
 
 // Desplegable consejos
 
