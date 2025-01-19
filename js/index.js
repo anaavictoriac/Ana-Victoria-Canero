@@ -83,24 +83,27 @@ document.addEventListener("DOMContentLoaded", function() {
 document.addEventListener("DOMContentLoaded", function() {
 
     const popup = document.querySelector('.newsletter__popup')
-    const subscribeButton = document.getElementById("popupButtom");
-    const closePopup = document.getElementById("popupClose");
+    const subscribeButton = document.getElementById("popupButtom")
+    const closePopup = document.getElementById("popupClose")
 
     subscribeButton.addEventListener("click", function() {
-    popup.style.display = "flex"
-    
-    });
+        popup.style.display = "flex"
+    })
 
     closePopup.addEventListener("click", function() {
-    popup.style.display = "none"
-    });
+        popup.style.display = "none"
+    })
 
     window.addEventListener("click", function(event) {
         if (event.target === popup) {
             popup.style.display = "none"
+
+
+            window.location.href = "index.html"
         }
-    });
+    })
 })
+
 
 
 // Quienes somos

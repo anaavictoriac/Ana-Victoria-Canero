@@ -146,7 +146,7 @@ p {
 
     all: unset;
 
-    color: var(--secondary-color);
+
     border: 2px solid var(--secondary-color);
     border-radius: 12px;
 
@@ -158,13 +158,16 @@ p {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .boton1:hover {
 
     color: var(--primary-color);
-    background-color: var(--secondary-color);
-    border: 2px solid var(--secondary-color);
+
+    border: 2px solid var(--primary-color);
     border-radius: 12px;
 
     width: 150px;
@@ -175,6 +178,9 @@ p {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
 }
 
 /* Boton tipo 2 */
@@ -525,7 +531,7 @@ p {
     box-sizing: border-box;
     overflow: hidden;
 
-    background-image: url(/assets/paris.jpg);
+    background-image: url(../assets/paris.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: 0% 0%;
@@ -544,7 +550,7 @@ p {
     box-sizing: border-box;
     overflow: hidden;
 
-    background-image: url(/assets/budapest.jpg);
+    background-image: url(../assets/budapest.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0% 50%;
@@ -565,7 +571,7 @@ p {
     overflow: hidden;
     padding: 2em;
 
-    background-image: url(/assets/madrid_3.jpg);
+    background-image: url(../assets/madrid_3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0% 30%;
@@ -847,7 +853,7 @@ p {
     justify-content: space-between;
     align-items: center;
 
-    gap: 2em;
+    gap: 4em;
 
     padding: 2em;
 }
@@ -1439,7 +1445,7 @@ p {
     justify-content: center;
     align-items: center;
 
-    background-image: url(/assets/paris.jpg);
+    background-image: url(../assets/paris.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -1462,7 +1468,7 @@ p {
     justify-content: center;
     align-items: center;
 
-    background-image: url(/assets/valencia.jpg);
+    background-image: url(../assets/valencia.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -1485,7 +1491,7 @@ p {
     justify-content: center;
     align-items: center;
 
-    background-image: url(/assets/budapest.jpg);
+    background-image: url(../assets/budapest.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -1507,7 +1513,7 @@ p {
     justify-content: center;
     align-items: center;
 
-    background-image: url(/assets/madrid_3.jpg);
+    background-image: url(../assets/madrid_3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -1530,7 +1536,7 @@ p {
     justify-content: center;
     align-items: center;
 
-    background-image: url(/assets/madrid.jpg);
+    background-image: url(../assets/madrid.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -1552,7 +1558,7 @@ p {
     justify-content: center;
     align-items: center;
 
-    background-image: url(/assets/budapest.jpg);
+    background-image: url(../assets/budapest.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -1574,7 +1580,7 @@ p {
     justify-content: center;
     align-items: center;
 
-    background-image: url(/assets/barcelona_2.jpg);
+    background-image: url(../assets/barcelona_2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
